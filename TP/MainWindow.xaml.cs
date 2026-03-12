@@ -43,7 +43,7 @@ namespace TP
 
             InputBox.Clear();
 
-            ChatBox.Text += $"Vous : {userText}\n";
+            ChatBox.Text += $"Vous : {userText}\n\n";
             ChatBox.Text += "IA : ";
 
             var messages = new List<ChatMessage>
