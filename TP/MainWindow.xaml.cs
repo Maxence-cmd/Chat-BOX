@@ -23,6 +23,8 @@ namespace TP
         public MainWindow()
         {
             InitializeComponent();
+            ChatBox.Text += "IA : Bonjour ! 👋\n";
+            ChatBox.Text += "Je suis votre assistant. Posez-moi une question.\n\n";
         }
         private async Task TypeText(string text)
         {
